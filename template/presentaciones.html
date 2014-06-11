@@ -33,7 +33,7 @@
 
   </head>
 
-  <body>
+  <body class="bg-primary bg-presentaciones">
     
 
     <!-- NAVBAR
@@ -41,7 +41,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,11 +50,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html"><img src="assets/img/main-logo.png" alt="Fabogesic"></a>
+              <a class="navbar-brand" href="index.html"><img src="assets/img/main-logo-inverse.png" alt="Fabogesic"></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="presentaciones.html">PRESENTACIONES</a></li>
+                <li class="active"><a>PRESENTACIONES</a></li>
                 <li><a href="que-es-el-ibuprofeno.html">¿QUÉ ES EL IBUPROFENO?</a></li>
                 <li><a href="#">USOS MÁS FRECUENTES</a></li>
                 <li><a href="#">CONTACTO</a></li>
@@ -67,86 +67,39 @@
       </div>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="assets/img/slider-img-01.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="assets/img/slider-img-02.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="assets/img/slider-img-03.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="marketing">
+    <div class="container presentaciones">
 
-      <!-- Four columns of text below the carousel -->
-        
-        <div class="col-md-3 bg-primary">
-          <h4>PRESENTACIONES</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <a class="btn btn-warning" href="presentaciones.html" role="button">VER MÁS</a>
-          <img src="assets/img/fabogesic-cajas.png" alt="PRESENTACIONES">
-        </div><!-- /.col-md-3 -->
-        
-        <div class="col-md-3 bg-warning">
-          <h4>¿QUÉ ES IBUPROFENO?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <a class="btn btn-primary" href="que-es-el-ibuprofeno.html" role="button">VER MÁS</a>
-          <img src="assets/img/fabogesic-capsulas.png" alt="¿QUÉ ES IBUPROFENO?">
-        </div><!-- /.col-md-3 -->
-        
-        <div class="col-md-3 bg-primary">
-          <h4>USOS MÁS FRECUENTES</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <a class="btn btn-success" href="#" role="button">VER MÁS</a>
-          <img src="assets/img/pizarra.png" alt="USOS MÁS FRECUENTES">
-        </div> <!-- /.col-md-3 -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <a href="capsulas-blandas.html" class="col-sm-4">
+          <div class="producto">
+            <img class="img-responsive" src="assets/img/caja-capsulas.png" alt="Cápsulas blandas">
+            <p>Cápsulas blandas</p>
+          </div>
+        </a><!-- /.col-sm-4 -->
+        <a href="comprimidos.html" class="col-sm-4">
+          <div class="producto">
+            <img class="img-responsive" src="assets/img/caja-comprimidos.png" alt="Comprimidos">
+            <p>Comprimidos</p>
+          </div>
+        </a><!-- /.col-sm-4 -->
+        <a href="seccion-pediatrica.html" class="col-sm-4">
+          <div class="producto">
+            <img class="img-responsive" src="assets/img/caja-suspension.png" alt="Suspensión oral">
+            <p>Suspensión oral</p>
+          </div>
+        </a><!-- /.col-sm-4 -->
+      </div><!-- /.row -->
 
-        <div class="col-md-3 bg-warning">
-          <h4>¿QUIENES SOMOS?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div> <!-- /.col-xs-6 .col-sm-3 -->
+      <div class="row">
+        <div class="bottom-logo"></div>
+      </div>
 
     </div><!-- /.container -->
-
-    <!-- <div id="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </div> -->
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-show="true">
       <div class="modal-dialog">
@@ -156,7 +109,8 @@
             <h4 class="modal-title" id="myModalLabel"><img src="assets/img/main-logo.png" alt="Fabogesic"></h4>
           </div>
           <div class="modal-body">
-            <p>La información de productos incluida en esta web es la contenida en el último prospecto aprobado por la Autoridad Regulatoria, se ofrece solamente con carácter informativo o educativo, sin fines promocionales y no pretende sustituir las opiniones y recomendaciones de los profesionales de la salud, que son los que deben tomar las decisiones relativas a la prescripción de medicamentos, teniendo en cuenta las características únicas de cada paciente.</p>
+            <p>El contenido de esta página web es únicamente de carácter informativo general.</p> 
+            <p>Recuerde siempre, en caso de necesitar mayor información de carácter médico, dirigirse a un profesional de la salud.</p>
             <p><img src="assets/img/fabogesic-capsulas.png" alt="Fabogesic"></p>
           </div>
           <div class="modal-footer">
@@ -182,10 +136,10 @@
 
     <script>
       $('#myModal').modal({
-          show: true
+        show: true
       });
     </script>
-    
+
     <!-- Google Analytics -->
     <script>
 
